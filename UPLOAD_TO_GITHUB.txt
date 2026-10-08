@@ -1,0 +1,12 @@
+مشروع Shehab Android جاهز للبناء عبر GitHub Actions.
+
+مهم: لا ترفع ملف ZIP نفسه إلى المستودع. فك الضغط أولاً، ثم ارفع محتويات المجلد إلى جذر المستودع بحيث تكون الملفات هكذا:
+
+build.gradle
+settings.gradle
+app/
+.github/workflows/build-apk.yml
+
+بعد الرفع: GitHub > Actions > Build Shehab APK > Run workflow.
+
+إذا كان المستودع يحتوي ملفات قديمة لنفس المشروع، استبدلها بهذه الملفات وحافظ على مجلد app في الجذر.
